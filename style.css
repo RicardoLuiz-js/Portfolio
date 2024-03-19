@@ -377,12 +377,33 @@ margin: 50px;
 
 @media (max-width: 700px) {
   /*responsivo*/
-  li{
-    text-align: left;
- 
-display: flex;
-width: 70px;
+
+  .waviy span{
+  font-size: 20px;
   
+}
+
+  li{
+   
+
+display: flex;
+max-width: 18%;
+
+  
+  }
+  .a{
+   
+    font-size: 90%;
+   
+  }
+  .sb{
+    
+    font-size: 90%;
+  }
+  ul{
+    display: flex;
+   margin: 0;
+   text-align: left;
   }
  
  .caixote{
@@ -401,11 +422,11 @@ width: 70px;
   
  }
  .h1txt{
-  
+  margin: 10px;
   text-align: center;
  }
  .ptxt{
-  
+  margin: 10px;
   text-align: center;
  }
 
