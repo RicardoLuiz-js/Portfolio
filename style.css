@@ -105,11 +105,11 @@ nav ul {
 .softskills{
   display: flex;
   margin-top: 20%;
-
+  margin-bottom: 20%;
  height: 300px;
     
     display: flex;
-    flex-wrap: wrap;
+   
     align-self: center;
     align-items: center;
     align-content: center;
@@ -122,8 +122,9 @@ nav ul {
 .programing{
     width: 80%;
     
-    left: 10%;
-    position: absolute;
+  
+    
+   
 }
 
 
@@ -446,6 +447,7 @@ width: 90%;
   width: 100%;
   top: 70%;
   height: auto;
+  margin-bottom: 300px;
  }
  @keyframes rotate {
   0% { transform: rotate(0deg) translate(150px) rotate(0deg);  }
@@ -453,31 +455,35 @@ width: 90%;
 }
 .projetos{
   height: 500px;
+  
   margin: 0;
+  
 }
 .projetostxt{
-  top: 140px;
+  top: -200px;
+  z-index: 99999999999999;
  
 }
 .sobremimtxt{
-  top: 900px;
+  top: 1300px;
+  
  
 }
 #sobremimtxt{
-  top: 900px;
+  top: 1300px;
  
 }
 .txtsobremim{
   width: auto;
  margin: 10px;
   text-align: center;
-  top: 900px;
+  top: 1200px;
 }
 .img2{
   width: 100px;
 }
 .footer{
-  top: 900px;
+  top: 1400px;
 }
  }
   
