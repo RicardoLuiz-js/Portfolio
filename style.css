@@ -3,7 +3,7 @@ body{
     margin: 0;
    
    
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 
 p{
@@ -105,7 +105,7 @@ nav ul {
 .softskills{
   display: flex;
   margin-top: 20%;
-  margin-bottom: 20%;
+  margin-bottom: 20px;
  height: 300px;
     
     display: flex;
@@ -394,12 +394,12 @@ max-width: 18%;
   }
   .a{
    
-    font-size: 80%;
+    font-size: 90%;
    
   }
   .sb{
     
-    font-size: 80%;
+    font-size: 90%;
   }
   ul{
     display: flex;
@@ -450,8 +450,8 @@ width: 90%;
   margin-bottom: 300px;
  }
  @keyframes rotate {
-  0% { transform: rotate(0deg) translate(150px) rotate(0deg);  }
-  100% { transform: rotate(360deg) translate(150px) rotate(-360deg); }
+  0% { transform: rotate(0deg) translate(125px) rotate(0deg);  }
+  100% { transform: rotate(360deg) translate(125px) rotate(-360deg); }
 }
 .projetos{
   height: 500px;
@@ -461,7 +461,7 @@ width: 90%;
 }
 .projetostxt{
   top: -200px;
-  z-index: 99999999999999;
+  
  
 }
 .sobremimtxt{
@@ -484,6 +484,10 @@ width: 90%;
 }
 .footer{
   top: 1400px;
+}
+#text{
+  text-align: center;
+  font-size: 80%;
 }
  }
   
