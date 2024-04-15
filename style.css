@@ -3,7 +3,7 @@ body{
     margin: 0;
    
    
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
 }
 
 p{
@@ -158,11 +158,11 @@ nav ul {
   bottom: 0px;
   position: relative;
   width: 400px;
-  height: 400px;
+  height: 300px;
   top: 100%;
   border-radius: 50%;
  color: aliceblue;
-  
+  margin: 20px;
   transform: rotate(-90deg);
 
 }
@@ -225,11 +225,11 @@ nav ul {
 
 .gif-container {
   position: relative;
-  width: 400px;
+  width: 300px;
   height: 500px;
-margin: 50px;
+  margin: 50px;
   
- top: 500px;
+ top: 700px;
 
 
 }
@@ -263,11 +263,12 @@ margin: 50px;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  
 }
 
 .projetostxt{
 
- top: 500px;
+ top: 700px;
   position: relative;
   text-align: center;
 }
@@ -295,7 +296,7 @@ margin: 50px;
 
 #sobremimtxt{
   position: relative;
-  top: 560px;
+  top: 800px;
   margin-top: 10%;
   margin-bottom: 5%;
   display: flex;
@@ -317,7 +318,7 @@ margin: 50px;
 
 .sobremimtxt{
 
-  top: 600px;
+  top: 800px;
    position: relative;
    text-align: center;
  }
@@ -336,7 +337,7 @@ margin: 50px;
   position: relative;
   left: 0;
   bottom: 0;
-  top: 700px;
+  top: 900px;
   width: 100%;
  
   color: white;
@@ -454,23 +455,27 @@ width: 90%;
   100% { transform: rotate(360deg) translate(125px) rotate(-360deg); }
 }
 .projetos{
-  height: 500px;
+  height: 700px;
   
   margin: 0;
   
 }
 .projetostxt{
-  top: -200px;
+  top: -140px;
+ 
   
  
 }
+.gif-container{
+  top: 400px;
+}
 .sobremimtxt{
-  top: 1300px;
+  top: 1100px;
   
  
 }
 #sobremimtxt{
-  top: 1300px;
+  top: 1100px;
  
 }
 .txtsobremim{
@@ -483,7 +488,10 @@ width: 90%;
   width: 100px;
 }
 .footer{
-  top: 1400px;
+  top: 1300px;
+  
+ align-items: center;
+ justify-content: center;
 }
 #text{
   text-align: center;
