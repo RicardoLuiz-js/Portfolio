@@ -375,7 +375,9 @@ nav ul {
 .contatotxt{
   margin-bottom: 50px;
 }
-
+input{
+  color: darkred;
+}
 
 @media (max-width: 700px) {
   /*responsivo*/
