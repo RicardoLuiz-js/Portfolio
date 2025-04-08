@@ -4,44 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
+   
     <title>Portfólio</title>
 </head>
 <body>
+  <div id="particles-js"></div>
 
-  <div class="container">
+  <div class="container" >
     <!-- Cabeçalho de navegação -->
     <nav>
      
       <ul>
         <li id="inicio"><a class="a" href="#inicio">Inicio</a></li>
-        <li><a  class="a" href="#skills">Skills</a></li>
-        <li><a  class="a" href="cases-de-sucesso.html">Projetos</a></li>
-        <li><a class="sb" href="contato.html">Sobre mim</a></li>
-        <li><a  class="a" href="perguntas-frequentes.html">Contato</a></li>
+            <li><a class="a" href="#skillss">Skills</a></li>
+            <li><a class="a" href="#projetos">Projetos</a></li>
+            <li><a class="sb" href="#sobremim">Sobre mim</a></li>
+            <li><a class="a" href="#contato">Contato</a></li>
       </ul>
     </nav>
   </div>
 
 
-    <div class="container">
-        <!-- Cabeçalho de navegação -->
-        <nav  id="navbar">
-         
-          <ul>
-            <li id="inicio"><a class="a" href="#inicio">Inicio</a></li>
-            <li><a class="a" href="#skillss">Skills</a></li>
-            <li><a class="a" href="#projetos">Projetos</a></li>
-            <li><a class="sb" href="#sobremim">Sobre mim</a></li>
-            <li><a class="a" href="#contato">Contato</a></li>
-          </ul>
-        </nav>
-      </div>
       <div class="caixote" >
       <div class="caixa">
         <h1 class="h1txt">Explorando Novos Horizontes: A Jornada de Transformar Sonhos em Realidade Digital</h1>
        <p class="ptxt">“Empreendendo a jornada para transformar o comum em extraordinário,
          eu uso a criatividade como minha bússola. Através da inovação e pensamento original,
-          eu desafio os limites do possível.
+          eu desafio os limites do possível. Seja desenvolvendo um aplicativo revolucionário
+           ou criando uma solução de software inovadora, minha missão é sempre transformar ideias
+            em realidade digital. Cada linha de código que escrevo é um passo para dar vida a sonhos.
+             A criatividade não conhece fronteiras e estou sempre pronto para explorar novos horizontes.”
+            
        </p> 
       </div>
       <img id="img2"  class="img" src="imagem-perfil.png" alt="">
@@ -49,31 +42,7 @@
     </div>
     
     
-    <div class="softskills">
-      <img id="skillss" class="programing" src="programing.png" alt="">
-        <div class="circle">
-          <div id="button1" class="button" title="comunicação"><img class="icone" src="comunicacao.png" alt=""></div>
-          <div id="button2" class="button" title="Trabalho em equipe"><img class="icone" src="trabalho-em-equipe.png" alt=""></div>
-          <div id="button3" class="button" title="Resolução de problemas"><img class="icone" src="solucao.png" alt=""></div>
-          <div id="button4" class="button" title="Adaptabilidade"><img class="icone" src="adaptacao.png" alt=""></div>
-          <div id="button5" class="button" title="Liderança"><img class="icone" src="lideranca.png" alt=""></div>
-          <div id="button6" class="button" title="Gestão do tempo"><img class="icone" src="recurso.png" alt=""></div>
-          <div id="button7" class="button" title="Auto-Motivação"><img class="icone" src="motivacao.png" alt=""></div>
-          <div id="button8" class="button" title="Aprendizado Contínuo"><img class="icone" src="aprendizado.png" alt=""></div>
-          <div id="text"> <div class="waviy">
-            <span style="--i:1">Q</span>
-            <span style="--i:2">U</span>
-            <span style="--i:3">A</span>
-            <span style="--i:4">L</span>
-            <span style="--i:5">I</span>
-            <span style="--i:6">T</span>
-            <span style="--i:7">I</span>
-            <span style="--i:8">E</span>
-            <span style="--i:9">S</span>
-           </div></div>
-      </div>
-      
-    </div>
+   
    <div class="projetostxt" id="projetos"> <div class="waviy">
     <span style="--i:1">P</span>
     <span style="--i:2">R</span>
@@ -85,30 +54,50 @@
     <span style="--i:8">S</span>
    
    </div></div>
-    <div class="projetos"> 
-    <div class="gif-container">
-      <img src="ghstudio.gif" alt="Descrição do GIF 1">
-      <a href="https://rikkiisenpai.github.io/GH-Studio/"> <div class="overlay">
-        <div class="text">Site de empresa<br>Clique aqui para acessar</div>
-      </div></a>
+  
+   <div class="carrossel-container">
+    <div class="carrossel">
+        <!-- Slides serão clonados e adicionados via JavaScript -->
     </div>
     
-    <div class="gif-container">
-      <img src="akuma_no_encyclopedia.gif" alt="Descrição do GIF 2">
-      <a href="https://akumanoencyclopedia.000webhostapp.com/">  <div class="overlay">
-        <div class="text">Livro digital<br> Clique aqui para acessar</div>
-      </div></a>
-    </div>
+    <button class="carrossel-btn prev-btn">&#10094;</button>
+    <button class="carrossel-btn next-btn">&#10095;</button>
+</div>
 
-    <div class="gif-container">
-      <img src="calculadorajs.gif" alt="Descrição do GIF 3">
-      <a href="https://rikkiisenpai.github.io/Calculadora_js/">  <div class="overlay">
-        <div class="text">Calculadora js<br> Clique aqui para acessar</div>
-      </div></a>
-    </div>
+  
 
+<div class="softskills">
+
+
+
+
+  <img id="skillss" class="programing" src="programing.png" alt="">
+    <div class="circle">
+      <div id="button1" class="button" title="comunicação"><img class="icone" src="comunicacao.png" alt=""></div>
+      <div id="button2" class="button" title="Trabalho em equipe"><img class="icone" src="trabalho-em-equipe.png" alt=""></div>
+      <div id="button3" class="button" title="Resolução de problemas"><img class="icone" src="solucao.png" alt=""></div>
+      <div id="button4" class="button" title="Adaptabilidade"><img class="icone" src="adaptacao.png" alt=""></div>
+      <div id="button5" class="button" title="Liderança"><img class="icone" src="lideranca.png" alt=""></div>
+      <div id="button6" class="button" title="Gestão do tempo"><img class="icone" src="recurso.png" alt=""></div>
+      <div id="button7" class="button" title="Auto-Motivação"><img class="icone" src="motivacao.png" alt=""></div>
+      <div id="button8" class="button" title="Aprendizado Contínuo"><img class="icone" src="aprendizado.png" alt=""></div>
+      <div id="text"> <div class="waviy">
+        <span style="--i:1">Q</span>
+        <span style="--i:2">U</span>
+        <span style="--i:3">A</span>
+        <span style="--i:4">L</span>
+        <span style="--i:5">I</span>
+        <span style="--i:6">T</span>
+        <span style="--i:7">I</span>
+        <span style="--i:8">E</span>
+        <span style="--i:9">S</span>
+       </div></div>
   </div>
+  
+</div>
 
+  
+<div id="sobremimclasse">
   <div class="sobremimtxt" id="sobremim"> <div class="waviy">
     <span style="--i:1">S</span>
     <span style="--i:2">O</span>
@@ -124,7 +113,13 @@
 
 <div id="sobremimtxt">
 <img class="img2" src="imagem-perfil.png" alt=""><div class="txtsobremim">
-<p class="ptxt">“Olá, meu nome é Ricardo Luiz Pereira e tenho 18 anos. Sempre fui fascinado pela tecnologia e programação desde jovem. Descobri o mundo da programação e me apaixonei por essa habilidade criativa. Acredito que a programação é uma ferramenta poderosa para resolver problemas complexos e fazer a diferença no mundo.”</p>
+<p class="ptxt">Olá, meu nome é Ricardo Luiz Pereira e tenho 19 anos. Desde muito jovem, sempre fui fascinado pela tecnologia e pelo impacto que ela tem em nossas vidas. Essa paixão me levou a descobrir o mundo da programação, um campo que me cativou completamente.
+
+  A programação para mim não é apenas uma habilidade, é uma paixão. É a capacidade de criar, de trazer ideias à vida e de resolver problemas complexos. É uma forma de expressão, assim como a arte ou a música.
+  
+  Estou constantemente buscando aprender e crescer como programador. Adoro desafios e a satisfação que vem ao resolvê-los. Acredito que a programação é uma ferramenta poderosa que pode ser usada para fazer a diferença no mundo, e estou animado para ver onde essa jornada me levará.
+  </p>
+</div>
 </div>
 </div>
 <div class="footer">
@@ -164,64 +159,68 @@
       <a href="https://www.instagram.com/rikkiiken?igsh=eHVhdHVrNnZ6NzVo" target="_blank"><img class="icon" src="instagram.png" alt=""></a>
       <a href="https://wa.me/message/WUAHX3M5OBBUE1" target="_blank"><img class="icon" src="whatsapp.png" alt=""></a>
     </div>
-    <p>© 2024 Ricardo Luiz Pereira. Todos os direitos reservados.</p>
+    <p class="txtrodape">© 2025 Ricardo Luiz Pereira. Todos os direitos reservados.</p>
   </div>
 
-    <script>
-      const buttons = document.querySelectorAll('.button');
-      const buttonTexts = {
-          'button1': 'Tenho uma forte capacidade de comunicação que me permite interagir efetivamente com colegas de equipe e clientes. Minha habilidade para ouvir ativamente e expressar minhas ideias de forma clara me ajuda a colaborar efetivamente e resolver conflitos de maneira produtiva.',
-          'button2': 'Sou um jogador de equipe dedicado que entende a importância da colaboração para alcançar objetivos comuns. Valorizo a diversidade de pensamentos e perspectivas e acredito que as melhores soluções vêm do trabalho conjunto.',
-          'button3': ' Sou um solucionador de problemas criativo e analítico. Tenho a capacidade de pensar fora da caixa para encontrar soluções inovadoras e também a habilidade de analisar detalhes para resolver problemas complexos.',
-          'button4': 'Em um mundo em constante mudança, minha capacidade de me adaptar rapidamente a novas situações e desafios é uma das minhas maiores forças. Estou sempre pronto para aprender novas habilidades e abraçar a mudança.',
-          'button5':' Tenho uma forte capacidade de liderança, demonstrada pela minha habilidade em inspirar e motivar equipes para alcançar seus objetivos. Minha abordagem de liderança é baseada no respeito mútuo, na comunicação aberta e na criação de um ambiente de trabalho positivo.',
-          'button6':'Possuo excelentes habilidades de gestão do tempo, o que me permite equilibrar eficazmente várias tarefas e prazos. Eu priorizo minhas responsabilidades para garantir que o trabalho mais importante seja concluído primeiro e dentro do prazo.',
-          'button7':' Sou altamente auto-motivado, o que me permite manter um alto nível de produtividade mesmo em situações desafiadoras. Minha paixão pelo que faço me impulsiona a sempre dar o meu melhor e a buscar constantemente maneiras de melhorar.',
-          'button8':'Acredito firmemente no valor do aprendizado contínuo. Estou sempre buscando expandir meu conhecimento e habilidades, seja através de treinamentos formais, leitura autodidata ou buscando feedback construtivo.'
-      };
-      buttons.forEach(button => {
-          button.addEventListener('click', () => {
-              document.getElementById('text').innerText = buttonTexts[button.id];
-          });
-          button.addEventListener('mouseover', () => {
-              buttons.forEach(button => {
-                  button.style.animationPlayState = 'paused';
-              });
-          });
-          button.addEventListener('mouseout', () => {
-              buttons.forEach(button => {
-                  button.style.animationPlayState = 'running';
-              });
-          });
-      });
 
+  <script src="script.js"></script>
 
-     
-window.onload = function() {
-  var intervalo = 2000; // 2 segundos
-  for (let i = 1; i <= 8; i++) {
-    setTimeout(function() {
-      document.getElementById('button' + i).style.visibility = 'visible';
-    }, i * intervalo);
-  }
-};
-
-
-
-
-var lastScrollTop = 0;
-window.onscroll = function() {
-    var currentScrollPos = window.pageYOffset;
-    if (lastScrollTop > currentScrollPos) {
-        document.getElementById("navbar").style.top = "0";
-    } else {
-        document.getElementById("navbar").style.top = "-70px";
-    }
-    lastScrollTop = currentScrollPos;
-}
-
-
-
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": {
+          "value": 80,  // Quantidade de partículas
+          "density": {
+            "enable": true,
+            "value_area": 800
+          }
+        },
+        "color": {
+          "value": "#ffffff"  // Cor branca
+        },
+        "shape": {
+          "type": "circle",  // Forma das partículas
+          "stroke": {
+            "width": 0,
+            "color": "#000000"
+          }
+        },
+        "opacity": {
+          "value": 0.5,  // Transparência
+          "random": true
+        },
+        "size": {
+          "value": 3,  // Tamanho
+          "random": true
+        },
+        "line_linked": {
+          "enable": false  // Remove linhas entre partículas
+        },
+        "move": {
+          "enable": true,
+          "speed": 2,  // Velocidade
+          "direction": "none",
+          "random": true,
+          "straight": false,
+          "out_mode": "out"
+        }
+      },
+      "interactivity": {
+        "detect_on": "canvas",
+        "events": {
+          "onhover": {
+            "enable": false  // Desativa efeitos ao passar o mouse
+          },
+          "onclick": {
+            "enable": false  // Desativa efeitos ao clicar
+          },
+          "resize": true
+        }
+      },
+      "retina_detect": true
+    });
   </script>
+
 </body>
 </html>

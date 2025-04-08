@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+    background-color: black;
+}
+
+        #particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Coloca as partículas atrás do conteúdo */
+  background: transparent;
+  pointer-events: none; /* Permite interação com elementos abaixo */
+}
+    </style>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+  particlesJS("particles-js", {
+    "particles": {
+      "number": {
+        "value": 80,  // Quantidade de partículas
+        "density": {
+          "enable": true,
+          "value_area": 800
+        }
+      },
+      "color": {
+        "value": "#ffffff"  // Cor branca
+      },
+      "shape": {
+        "type": "circle",  // Forma das partículas
+        "stroke": {
+          "width": 0,
+          "color": "#000000"
+        }
+      },
+      "opacity": {
+        "value": 0.5,  // Transparência
+        "random": true
+      },
+      "size": {
+        "value": 3,  // Tamanho
+        "random": true
+      },
+      "line_linked": {
+        "enable": false  // Remove linhas entre partículas
+      },
+      "move": {
+        "enable": true,
+        "speed": 2,  // Velocidade
+        "direction": "none",
+        "random": true,
+        "straight": false,
+        "out_mode": "out"
+      }
+    },
+    "interactivity": {
+      "detect_on": "canvas",
+      "events": {
+        "onhover": {
+          "enable": false  // Desativa efeitos ao passar o mouse
+        },
+        "onclick": {
+          "enable": false  // Desativa efeitos ao clicar
+        },
+        "resize": true
+      }
+    },
+    "retina_detect": true
+  });
+</script>
+</body>
+</html>
