@@ -1,0 +1,829 @@
+body{
+   background-color: var(--cor-body-red);
+    margin: 0;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+
+.botao-imagem {
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  width: 5%; /* Ajuste conforme o tamanho da sua imagem */
+  border-radius: 35px;
+  height: auto;
+  margin-top: 60px;
+  margin-left: 30px;
+}
+
+.botao-imagem img {
+  width: 100%;
+  border-radius: 35px;
+  height: auto;
+  display: block;
+}
+
+.particle{
+  color: var(--cor-body-dark);
+}
+
+
+
+body::-webkit-scrollbar {
+  display: none; /* Esconde a barra de rolagem para navegadores baseados em WebKit */
+}
+
+
+
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1; /* Coloca as partículas atrás do conteúdo */
+  background: transparent;
+  pointer-events: none; /* Permite interação com elementos abaixo */
+}
+
+
+:root {
+  --cor-txt-red:#ffffff;
+  --cor-body-red:#000000;
+  --cor-card-red:#ffffff;
+  --cor-sombra-red:#ffffff;
+}
+
+body.claro {
+ --cor-body-red:#ffffff;
+ --cor-txt-red:#000000;
+ --cor-card-red:#ffffff;
+ --cor-sombra-red:#ffffff;
+}
+
+
+
+p{
+    font-size: 20px;
+}
+
+
+
+/* Efeito de cor ao passar o mouse sobre os links */
+nav ul li a:hover {
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff;
+    
+  }
+
+nav ul li a {
+    padding: 5px 20px;
+    text-decoration: none;
+    font-size: 19px;
+    color: #fff;
+    transition: 0.6s;
+  }
+
+
+
+nav ul {
+ 
+    list-style: none;
+    background: rgb(64, 59, 59);
+    background: linear-gradient(
+      90deg,
+      rgba(64, 59, 59, 1) 2%,
+      rgb(17, 17, 17) 100%,
+      rgb(7, 3, 75) 100%
+    );
+  
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+  }
+  a {
+    text-decoration: none;
+    color: var(--cor-txt-red);
+  }
+
+  .img{
+    width: 200px;
+    float: right;
+    margin: 10px;
+    border-radius: 1000px; /* Arredonda os cantos da imagem */   
+    box-shadow: 0 0 10px var(--cor-sombra-red); /* Adiciona um brilho verde */
+    
+    
+  }
+
+  .caixote{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+  }
+
+  .caixa{
+    color: var(--cor-txt-red);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  @keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+.img {
+    animation: float 2s ease-in-out infinite;
+}
+
+.softskills{
+  display: flex;
+  margin-top: 20%;
+ 
+  
+ height: 300px;
+    
+    display: flex;
+   
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+
+.programing{
+    width: 80%;
+    margin-bottom: 30%;
+  
+    
+   
+}
+
+
+
+
+.waviy {
+  position: relative;
+  
+}
+
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 30px;
+  color: var(--cor-txt-red);
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(.2s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+
+
+
+
+
+/*projetos*/
+
+.projetos{
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+
+
+
+
+#sobremimclasse{
+  
+  margin-top: 50vh;
+}
+
+
+
+
+.text {
+  color: var(--cor-txt-red);
+  font-size: 20px;
+  position: absolute;
+ 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  
+}
+
+.projetostxt{
+
+  margin: 10%;
+
+  text-align: center;
+}
+
+.projetostxt, h1{
+  size: 1000px;
+  color: var(--cor-txt-red);
+  
+}
+
+
+
+.img2{
+  width: 300px;
+  float: left;
+  margin: 10px;
+  border-radius: 1000px; /* Arredonda os cantos da imagem */   
+  box-shadow: 0 0 10px var(--cor-sombra-red); /* Adiciona um brilho verde */
+  
+  
+}
+
+
+
+
+#sobremimtxt{
+  position: relative;
+  
+ 
+  margin-bottom: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  
+}
+
+.txtsobremim{
+  color: var(--cor-txt-red);
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+ 
+}
+
+
+.sobremimtxt{
+
+  
+  
+   text-align: center;
+ }
+
+
+
+
+
+input{
+  color: darkred;
+}
+
+ .footer {
+
+  
+   background-color: var(--cor-body-red);
+  display: flex;
+
+  left: 0;
+  bottom: 0;
+ 
+  width: 100%;
+ 
+  color: var(--cor-txt-red);
+  text-align: center;
+  padding: 1px;
+  justify-content: center;
+  flex-direction: column;
+}
+.social-icons {
+  margin: 10px;
+}
+
+.red{
+  width: 100px;
+  position: absolute;
+  right: 60%;
+}
+
+.enviar{
+  color: var(--cor-body-red);
+  border-radius: 10px;
+    background: rgb(64, 59, 59);
+    background: linear-gradient(
+      90deg,
+      rgba(64, 59, 59, 1) 2%,
+      rgb(17, 17, 17) 100%,
+      rgb(7, 3, 75) 100%
+    );
+}
+.icon{
+  width: 20px;
+  background-color: #fff;
+  border-radius: 100%;
+}
+
+.contatotxt{
+  margin-bottom: 50px;
+}
+
+
+
+
+.carousel {
+	height: 700px;
+	perspective: 600px;
+	transform: translateY(-100px);
+}
+
+.carousel .carousel-item {
+	cursor: grab;
+	width: 400px;
+}
+
+.carousel .carousel-item:active {
+	cursor: grabbing;
+}
+
+.carousel .carousel-item img {
+	width: 100%;
+}
+
+.carousel .carousel-item h3 {
+	background-color: #ffffff;
+	color: #000000;
+	font-size: 2em;
+	font-weight: bold;
+	margin: -5px 0 0;
+	padding: 10px 5px;
+	text-align: center;
+}
+
+
+
+
+ /*negocio que gira*/
+
+
+.circle {
+  bottom: 0px;
+ 
+  width: 400px;
+  height: 300px;
+  top: 100%;
+  border-radius: 50%;
+  color: var(--cor-txt-red);
+  margin: 20px;
+  transform: rotate(-90deg);
+
+}
+.button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  margin-top: -25px;
+  margin-left: -25px;
+  visibility: hidden;
+  border-radius: 50%;
+
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  animation: rotate 16s linear infinite;
+}
+
+
+.button :hover{
+  box-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #ffffff;
+}
+
+
+
+#button1 { animation-delay: 0s; }
+#button2 { animation-delay: 2s; }
+#button3 { animation-delay: 4s; }
+#button4 { animation-delay: 6s; }
+#button5 { animation-delay: 8s; }
+#button6 { animation-delay: 10s;}
+#button7 { animation-delay: 12s;}
+#button8 { animation-delay: 14s;}
+#text { 
+  position: absolute; 
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%) rotate(90deg); 
+}
+@keyframes rotate {
+  0% { transform: rotate(0deg) translate(200px) rotate(0deg);  }
+  100% { transform: rotate(360deg) translate(200px) rotate(-360deg); }
+}
+  
+
+.icone{
+ width: 100%;
+ height: 100%;
+  justify-content: stretch;
+  transform: rotate(90deg);
+  
+  
+}
+
+
+
+
+
+
+
+
+
+.text {
+  text-align: center;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+  /*responsivo*/
+
+h1{
+  font-size: 20px;
+}
+p{
+  font-size:10px;
+}
+
+
+
+  .waviy span{
+  font-size: 20px;
+  
+}
+
+  li{
+   
+
+display: flex;
+max-width: 18%;
+
+  
+  }
+  .a{
+   
+    font-size: 90%;
+   
+  }
+  .sb{
+    
+    font-size: 90%;
+  }
+  ul{
+    display: flex;
+   margin: 0;
+   text-align: left;
+  }
+ 
+ .caixote{
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 0;
+  margin: 0;
+ }
+ .caixa{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+ }
+ #img2{
+  width: 100px;
+  
+ }
+ .h1txt{
+  margin: 10px;
+  text-align: center;
+ }
+ .ptxt{
+  margin: 10px;
+  text-align: center;
+ }
+
+ #skills{
+  margin-top: 200px;
+ margin-left: 20px;
+  position: static;
+width: 90%;
+ justify-content: center;
+  
+
+ }
+ .softskills{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  top: 70%;
+  height: auto;
+
+ }
+ @keyframes rotate {
+  0% { transform: rotate(0deg) translate(125px) rotate(0deg);  }
+  100% { transform: rotate(360deg) translate(125px) rotate(-360deg); }
+}
+
+.projetostxt{
+  top: -140px;
+ 
+  
+ 
+}
+
+
+.txtsobremim{
+  width: auto;
+ margin: 10px;
+  text-align: center;
+  top: 1200px;
+}
+.img2{
+  width: 100px;
+}
+.footer{
+ 
+  
+ align-items: center;
+ justify-content: center;
+}
+#text{
+  text-align: center;
+  font-size: 80%;
+}
+ }
+  
+ * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.carrossel-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+  perspective: 1000px;
+}
+
+.carrossel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide {
+  position: absolute;
+  width: 25%;
+  height: 90%;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-origin: center center;
+}
+
+.slide-content {
+  text-align: start;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  overflow-y: auto;
+  color: var(--cor-card-red);
+ 
+}
+
+.slide-content::-webkit-scrollbar {
+  display: none; /* Esconde a barra de rolagem para navegadores baseados em WebKit */
+}
+
+.slide-content h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--cor-card-red);
+  display: flex;
+  text-align: start;
+  letter-spacing: 2px;
+}
+
+.slide-content p {
+  font-size: 1.0rem;
+  font-weight: 700;
+  color: var(--cor-card-red);
+  display: flex;
+  text-align: start;
+  letter-spacing: 2px;
+}
+.slide-content img {
+width: 20%;
+display: block; 
+margin: 0 auto;
+
+}
+
+.slide-content a {
+ font-size: 150%;
+ 
+
+  
+  }
+
+/* Estilos para diferentes posições dos slides */
+.slide.center {
+  transform: translateX(0) scale(1);
+  z-index: 5;
+  opacity: 1;
+}
+
+.slide.left-1 {
+  transform: translateX(-80%) scale(0.8);
+  z-index: 4;
+  opacity: 0.8;
+}
+
+.slide.left-2 {
+  transform: translateX(-160%) scale(0.6);
+  z-index: 3;
+  opacity: 0.6;
+}
+
+.slide.right-1 {
+  transform: translateX(80%) scale(0.8);
+  z-index: 4;
+  opacity: 0.8;
+}
+
+.slide.right-2 {
+  transform: translateX(160%) scale(0.6);
+  z-index: 3;
+  opacity: 0.6;
+}
+
+.slide.hidden {
+  transform: translateX(-240%) scale(0.4);
+  z-index: 1;
+  opacity: 0;
+}
+
+.slide.hidden-right {
+  transform: translateX(240%) scale(0.4);
+  z-index: 1;
+  opacity: 0;
+}
+
+.carrossel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: var(--cor-card-red);
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 50%;
+  transition: all 0.3s;
+  z-index: 10;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carrossel-btn:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  transform: translateY(-50%) scale(1.1);
+  
+}
+
+.prev-btn {
+  left: 20px;
+}
+
+.next-btn {
+  right: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 900px) {
+  .carrossel-container {
+      height: 400px;
+  }
+  
+  
+  
+  .slide-content h2 {
+      font-size: 2rem;
+  }
+  
+  .carrossel-btn {
+      width: 40px;
+      height: 40px;
+      font-size: 20px;
+  }
+  .slide-content p {
+    font-size: 0.5rem;
+
+  }
+  .slide{
+    width: 80%;
+    height: 90%;
+  }
+
+  #sobremimclasse{
+  
+    margin-top: 30vh;
+  }
+}
+
+@media (max-width: 580px) {
+  .carrossel-container {
+      height: 350px;
+  }
+  
+  .slide {
+      width: 80%;
+      height: 90%;
+  }
+  
+  .slide-content h2 {
+      font-size: 1.5rem;
+  }
+  
+  .carrossel-btn {
+      width: 35px;
+      height: 35px;
+      font-size: 18px;
+  }
+
+
+  
+}
+
+
+
+
+.slide.center.zoomed {
+  transform: translateX(0) scale(1.05);
+  transition: transform 0.3s ease;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.slide.clickable {
+  cursor: pointer;
+}
