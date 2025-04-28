@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', function() {
             subtitle: "Sistema de controle de estoque organiza produtos e monitora movimentações com eficiência. Oferece desempenho rápido, interface intuitiva e ferramentas para análise estratégica.",
             image: "img/Estoque.png",
             color: "linear-gradient(90deg,rgb(50, 8, 78) 2%,rgb(17, 17, 17) 100%,rgb(7, 3, 75) 100%)",
-            link:"https://github.com/RikkiiSenpai/Controle-de-Estoque"
+            link:"Controle-Estoque.html"
            
             
         },
