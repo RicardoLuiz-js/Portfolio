@@ -132,14 +132,14 @@ document.addEventListener('DOMContentLoaded', function() {
             subtitle: "O site Akuma no Encyclopedia reúne informações detalhadas sobre as Akuma no Mi, as frutas fictícias da obra One Piece, categorizadas por tipo e descrição. Ele oferece um extenso catálogo com explicações sobre habilidades, modelos e usuários conhecidos. A interface é simples, permitindo fácil navegação e pesquisa.",
             image: "img/encyclopedia.png",
             color: "linear-gradient(90deg,rgb(255, 0, 0) 2%,rgb(17, 17, 17) 100%,rgb(7, 3, 75) 100%)",
-            link:"https://rikkiisenpai.github.io/Akuma-no-Encyclopedia/"
+            link:"https://RicardoLuiz-js.github.io/Akuma-no-Encyclopedia/"
         
         } ,{
             title: "GH-Studio",
             subtitle: "O site da GH-Studio oferece serviços personalizados de desenvolvimento web para os seus clientes. Ele apresenta páginas como Quem Somos, Serviços e Produtos e Casos de Sucesso, destacando a experiência da empresa. Além disso, possui seções informativas, como Perguntas Frequentes e Contato. A interface, construída com HTML e CSS, é intuitiva, funcional e totalmente responsiva, adaptando-se a diferentes dispositivos para garantir uma experiência fluida.",
             image: "img/ghstudio.jpg",
             color: "linear-gradient(90deg,rgb(255, 0, 0) 2%,rgb(17, 17, 17) 100%,rgb(7, 3, 75) 100%)",
-            link:"https://rikkiisenpai.github.io/GH-Studio/"
+            link:"https://RicardoLuiz-js.github.io/GH-Studio/"
         
          
         } 
