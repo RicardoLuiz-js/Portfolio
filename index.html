@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="img/perfilimage.png" type="image/x-icon">
+
+
+  <title>Portfólio</title>
+</head>
+
+<body id="body" class="escuro">
+  <div id="particles-js"></div>
+
+
+    <!-- Ícone do menu móvel -->
+    <div id="mobile-menu-icon">&#9776;</div> <!-- Ícone de hambúrguer -->
+    
+    <!-- Menu de navegação -->
+    <div id="Menu">    
+     <div id="close-menu-icon">&#10005;</div> <!-- Botão de "X" para fechar o menu -->
+  
+     <a class="a" href="#inicio" onclick="closeMenu()">Home</a>
+        <a class="a" href="#softskills" onclick="closeMenu()">Skills</a>
+        <a class="a" href="#projetos" onclick="closeMenu()">Projects</a>
+        <a class="sb" href="#sobremim" onclick="closeMenu()">About Me</a>
+      <a class="a" href="#contato" onclick="closeMenu()">Contact</a>
+        <button class="botao-imagem" id="botaoMobile" style=" z-index: 999;"> <img src="img/Dark.PNG" alt="Imagem 1"
+            id="imagemBotao"></button>
+      
+
+    </div>
+
+
+
+  <div class="container" >
+     
+    <!-- Cabeçalho de navegação -->
+    <nav>
+
+      <ul>
+        <li ><a class="a" href="#inicio">Home</a></li>
+        <li><a class="a" href="#softskills">Skills</a></li>
+        <li><a class="a" href="#projetos">Projects</a></li>
+        <li><a class="sb" href="#sobremim">About Me</a></li>
+        <li><a class="a" href="#contato">Contact</a></li>
+        <button class="botao-imagem" id="botao" style=" z-index: 999;"> <img src="img/Dark.PNG" alt="Imagem 1"
+            id="imagemBotao"></button>
+      </ul>
+    </nav>
+  </div>
+
+
+  <div class="caixote" id="inicio">
+    <div class="caixa">
+      <div id="texto1">
+        <h1 class="h1txt" id="texto">Exploring New Horizons: The Journey of Turning Dreams into Digital Reality
+        </h1>
+        <p class="ptxt" id="paragrafo">"Embarking on a journey to transform the ordinary into the extraordinary, I use creativity as my compass. Through innovation and original thinking, I challenge the limits of what’s possible. Whether developing a groundbreaking app or crafting an innovative software solution, my mission is always to turn ideas into digital reality. Every line of code I write is a step toward bringing dreams to life. Creativity knows no boundaries, and I am always ready to explore new horizons."
+
+        </p>
+      </div>
+      <div id="perfil">
+        <img id="img2" class="img" src="img/perfilimage.png" alt="Imagem de Ricardo ">
+      </div>
+    </div>
+
+    <div id="divisa">
+      <p class="ptxt">Scroll Down</p>
+      <img class="seta" src="img/divisa-para-baixo.png" alt="Imagem de Rolagem">
+    </div>
+
+  </div>
+
+ <div class="softskills" id="softskills">
+  <div id="softskills-text">
+  <h1>My Skills</h1>
+  <p>I'm experienced with a range of technologies</p>
+  </div>
+  <div class="skills-container">
+        <!-- Abas -->
+        <div class="tabs">
+            <button class="tab-btn active" onclick="openTab(event, 'frontend')">Frontend</button>
+            <button class="tab-btn" onclick="openTab(event, 'backend')">Backend</button>
+            <button class="tab-btn" onclick="openTab(event, 'others')">Outros</button>
+        </div>
+        
+        <!-- Conteúdo da aba Frontend -->
+        <div id="frontend" class="tab-content active">
+            <div class="skill-item">
+                <div class="skill-name">
+                    <span>JavaScript</span>
+                    <span>Intermediate</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-level intermediate"></div>
+                </div>
+            </div>
+            
+            <div class="skill-item">
+                <div class="skill-name">
+                    <span>React</span>
+                    <span>Basic</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-level basic"></div>
+                </div>
+            </div>
+            
+            <div class="skill-item">
+                <div class="skill-name">
+                    <span>HTML/CSS</span>
+                    <span>Advanced</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-level advanced"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Conteúdo da aba Backend -->
+        <div id="backend" class="tab-content">
+            <div class="skill-item">
+                <div class="skill-name">
+                    <span>Php</span>
+                    <span>Intermediate</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-level intermediate"></div>
+                </div>
+            </div>
+            
+            <div class="skill-item">
+                <div class="skill-name">
+                    <span>C#</span>
+                    <span>Basic</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-level basic"></div>
+                </div>
+            </div>
+            
+            <div class="skill-item">
+                <div class="skill-name">
+                    <span>Java</span>
+                    <span>Basic</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-level basic"></div>
+                </div>
+            </div>
+           
+            
+        </div>
+        
+        <!-- Conteúdo da aba Outros -->
+        <div id="others" class="tab-content">
+            <div class="skill-item">
+                <div class="skill-name">
+                    <span>Git</span>
+                    <span>Basic</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-level basic"></div>
+                </div>
+            </div>
+            
+            <div class="skill-item">
+                <div class="skill-name">
+                    <span>Gdscript</span>
+                    <span>Basic</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-level basic"></div>
+                </div>
+            </div>
+            
+            <div class="skill-item">
+                <div class="skill-name">
+                    <span>SQL</span>
+                    <span>Basic</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-level basic"></div>
+                </div>
+            </div>
+              <div class="skill-item">
+                <div class="skill-name">
+                    <span>English</span>
+                    <span>Basic</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-level basic"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+  </div>
+<div id="projetos">
+  <div class="projetostxt" >
+    
+
+      <h1>My Projects</h1>
+    <p>Take a look at some of my latest projects — a blend of hands-on learning and personal creativity.</p>
+
+ 
+  </div>
+ <div class="carrossel-container">
+        <div class="carrossel">
+            <!-- Cards serão inseridos via JavaScript -->
+        </div>
+        <button class="btn btn-prev">❮</button>
+        <button class="btn btn-next">❯</button>
+        <div class="indicators"></div>
+    </div>
+
+</div>
+
+ 
+
+
+  <div id="sobremimclasse">
+    <div class="sobremimtxt" id="sobremim">
+      <div class="waviy">
+        <h1>About me</h1>
+
+      </div>
+    </div>
+
+    <div id="sobremimtxt">
+      <img class="img2" src="img/perfilimage.png" alt="">
+      <div class="txtsobremim">
+        <p class="ptxt" id="txtf">Hello, my name is Ricardo Luiz Pereira and I am 19 years old. From a very young age, I have always been fascinated by technology and the impact it has on our lives. This passion led me to discover the world of programming, a field that completely captivated me.
+
+Programming, for me, is not just a skill — it's a passion. It's the ability to create, to bring ideas to life, and to solve complex problems. It's a form of expression, much like art or music.
+
+I'm constantly striving to learn and grow as a programmer. I love challenges and the satisfaction that comes from overcoming them. I believe programming is a powerful tool that can be used to make a difference in the world, and I'm excited to see where this journey will take me.
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="footer" id="rodape">
+    <img class="red" src="img/red ghost.png" alt="">
+
+    <div class="contatotxt" id="contato">
+     
+        <h1>Contact me</h1>
+        <p>Ready to turn great ideas into reality? Get in touch — I’m just a message away.</p>
+       
+    
+    </div>
+
+
+    <p>rikkiidgh@gmail.com</p>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/rikkiiken?igsh=eHVhdHVrNnZ6NzVo" target="_blank"><img class="icon"src="img/instagram.png" alt=""></a>
+      <a href="https://wa.me/qr/7KTV4ODI6DPQK1" target="_blank"><img class="icon" src="img/whatsapp.png"alt=""></a>
+      <a href="https://www.linkedin.com/in/ricardo-luiz-9475422b3/" target="_blank"><img class="icon" src="img/linkedin.png"alt=""></a>
+      <a href="https://github.com/RicardoLuiz-js" target="_blank"><img class="icon" src="img/github.png"alt=""></a>
+    </div>
+ 
+  </div>
+   <div class="rights-reserved"><p class="txtrodape">© 2025 Ricardo Luiz Pereira. All rights reserved.</p></div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
